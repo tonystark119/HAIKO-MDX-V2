@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "HAIKO~MDX~",
+SESSION_ID: process.env.SESSION_ID || "HAIKO~MDX~DY8F1LSD#aVyOhmdKvZLn_AZOWig2Csgy5FnlLs4kiBX4cI_o3ls",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "false",
 // make true or false status auto seen
@@ -25,11 +25,11 @@ MENTION_REPLY: process.env.MENTION_REPLY || "false",
 // make true if want auto voice reply if someone menetion you 
 MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/xp1wdz.jpg",
 // add custom menu and mention reply image url
-PREFIX: process.env.PREFIX || ".",
+PREFIX: process.env.PREFIX || ",",
 // add your prifix for bot   
 BOT_NAME: process.env.BOT_NAME || "𝐇𝐀𝐈𝐊𝐎-𝐌𝐃𝐗-𝐕𝟐",
 // add bot namw here for menu
-STICKER_NAME: process.env.STICKER_NAME || "𝗜𝗟 𝗡𝗘 𝗙𝗔𝗨 𝗣𝗔𝗦 𝗔𝗧𝗧𝗘𝗡𝗗𝗥𝗘 𝗗'𝗘̂𝗧𝗥𝗘 𝗣𝗔𝗥𝗙𝗔𝗜𝗧 𝗣𝗢𝗨𝗥 𝗖𝗢𝗠𝗠𝗘𝗡𝗖𝗘𝗥 𝗤𝗨𝗘𝗟𝗤𝗨𝗘𝗦 𝗖𝗛𝗢𝗦𝗘 𝗗𝗘 𝗕𝗜𝗘𝗡",
+STICKER_NAME: process.env.STICKER_NAME || "❖*⋆꧁𓊈▓𒆜⟦🌹𝗧𝚯𝗡𝗬 𝗦𝗧𝗮𝚪𝐊✵⃟🌹⟧▓ ༆꧂∘❖",
 // type sticker pack name 
 CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
 // make this true for custum emoji react    
@@ -37,11 +37,19 @@ CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️�
 // chose custom react emojis by yourself 
 DELETE_LINKS: process.env.DELETE_LINKS || "false",
 // automatic delete links witho remove member 
-OWNER_NUMBER: process.env.OWNER_NUMBER || "529633982655",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "+24 16227 1306",
 // add your bot owner number
-OWNER_NAME: process.env.OWNER_NAME || "ᴍʀ sɪᴅᴅʜᴀʀᴛʜs",
+OWNER_NAME: process.env.OWNER_NAME || "𒆜⟦🌹𝗧𝚯𝗡𝗬 𝗦𝗧𝗮𝚪𝐊 ✵⃟🌹⟧",
 // add bot owner name
-DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴇᴠ xᴛʀᴇᴍᴇ*",
+DESCRIPTION: process.env.DESCRIPTION || "*Éprouve de la souffrance, la  souffrance fait réfléchir.*
+
+*Accueillez-la en vous sans réserve pour apprendre à mieux vous connaître.*
+
+*Accueillez-la en vous sans réserve pour apprendre à mieux vous connaître.*
+
+*Celui qui n'a pas connue la vraie souffrance ne peut pas désirer la paix véritable*
+
+",
 // add bot owner name    
 ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/xp1wdz.jpg",
 // add img for alive msg
@@ -53,7 +61,7 @@ AUTO_REACT: process.env.AUTO_REACT || "false",
 // make this true or false for auto react on all msgs
 ANTI_BAD: process.env.ANTI_BAD || "false",
 // false or true for anti bad words  
-MODE: process.env.MODE || "public",
+MODE: process.env.MODE || "private",
 // make bot public-private-inbox-group 
 ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "false",
 // make anti link true,false for groups 
